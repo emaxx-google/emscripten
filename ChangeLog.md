@@ -20,6 +20,9 @@ See docs/process.md for more on how version tagging works.
 
 Current Trunk
 -------------
+- Emscripten now builds a complete sysroot insde the EM_CACHE directory.
+  This includes the system headers which get copied into place there rather
+  than adding a sequence of extra include directories.
 
 2.0.11: 12/17/2020
 ------------------
