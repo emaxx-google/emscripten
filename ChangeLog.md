@@ -27,6 +27,9 @@ Current Trunk
   may notice that `RelWithDebInfo` will now include debug info (it did not
   before, which appears to have been an error), and that `Release` will
   use `-O3` instead of `-O2` (which is a better choice anyhow). (#13083)
+- Emscripten now builds a complete sysroot insde the EM_CACHE directory.
+  This includes the system headers which get copied into place there rather
+  than adding a sequence of extra include directories.
 
 2.0.11: 12/17/2020
 ------------------
