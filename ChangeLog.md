@@ -20,6 +20,9 @@ See docs/process.md for more on how version tagging works.
 
 Current Trunk
 -------------
+- Emscripten will now warn if its not run vai the shell/bat launcher scripts.
+  Please use `emcc` rather then `python emcc.py` to run python.  Warning can
+  be disabled with `-Wno-launcher-script`.
 
 2.0.11: 12/17/2020
 ------------------
